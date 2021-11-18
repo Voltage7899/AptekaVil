@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "362279732369",
+    "project_id": "apteka-16fea",
+    "storage_bucket": "apteka-16fea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362279732369:android:704eee26a218dbcc346b30",
+        "android_client_info": {
+          "package_name": "com.company.apteka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362279732369-ohojm8ttoun66t32qra7cb26jnp021l7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.apteka",
+            "certificate_hash": "2733802cecee92d1c844b2c78a9809bef06f7e47"
+          }
+        },
+        {
+          "client_id": "362279732369-e12puevsquih6kroa2pe77ht2fmn6a7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtMfQzy7g8ObGBAridSJ-Gr7HCI8ek3Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362279732369-e12puevsquih6kroa2pe77ht2fmn6a7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

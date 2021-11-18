@@ -7,59 +7,61 @@
     tools:context=".register"
     android:background="@drawable/main">
 
-    <LinearLayout
-        android:layout_width="280dp"
-        android:layout_height="454dp"
-        android:gravity="center"
-        android:orientation="vertical"
+    <EditText
+        android:id="@+id/name_reg"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#FA55A7"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599"
-        android:background="@color/white"
-        android:alpha="0.90">
+        app:layout_constraintVertical_bias="0.309" />
 
-        <EditText
-            android:id="@+id/name_reg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:ems="10"
-            android:hint="Имя"
-            android:inputType="textPersonName"
-            android:background="#FA55A7"/>
+    <EditText
+        android:id="@+id/phone_reg"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#FA55A7"
+        android:ems="10"
+        android:hint="Телефон"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
 
-        <EditText
-            android:id="@+id/phone_reg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:ems="10"
-            android:hint="Телефон"
-            android:inputType="textPersonName"
-            android:background="#FA55A7"/>
+    <EditText
+        android:id="@+id/pass_reg"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#FA55A7"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
 
-        <EditText
-            android:id="@+id/pass_reg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp"
-            android:background="#FA55A7"
-            android:ems="10"
-            android:hint="Пароль"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/reg_reg"
-            android:layout_width="189dp"
-            android:layout_height="wrap_content"
-            android:background="#FA55A7"
-            android:text="Зарегистрироваться" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/reg_reg"
+        android:layout_width="223dp"
+        android:layout_height="47dp"
+        android:background="#FA55A7"
+        android:text="Зарегистрироваться"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

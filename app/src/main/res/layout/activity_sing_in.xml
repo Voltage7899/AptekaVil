@@ -12,6 +12,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:ems="10"
+        android:textColor="@color/white"
 
         android:hint="Телефон"
         android:inputType="phone"
@@ -31,7 +32,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:ems="10"
-
+        android:textColor="@color/white"
         android:hint="Пароль"
         android:inputType="textPersonName"
         android:padding="10dp"
@@ -60,6 +61,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textColor="@color/white"
         android:hint="Админ Код"
         android:textSize="25dp"
         android:inputType="textPersonName"
